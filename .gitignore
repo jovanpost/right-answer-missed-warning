@@ -1,0 +1,7 @@
+.env
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+origin-note.txt
+.DS_Store
+*.bak
