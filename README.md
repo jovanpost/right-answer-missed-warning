@@ -1,12 +1,24 @@
 # Right Answer, Missed Warning
 
+**Pre-registration (OSF Registries):** https://osf.io/gx67a
+
+**DOI:** [10.17605/OSF.IO/GX67A](https://doi.org/10.17605/OSF.IO/GX67A)
+
 When you paste an everyday document into a chatbot and ask one narrow question, does the model also tell you about the serious fact in the same document that you did not ask about?
 
 This repo holds the pre-registration and frozen materials for that study. It is a self-funded, independent study, motivated by Shin (2026, arXiv 2606.26529v3).
 
-**Status:** pre-registered. No model has been run on the study materials yet. Results, code and data will be added here after the run.
+**Status:** pre-registered. The plan was frozen on October 27, 2026 and registered on OSF on October 28, 2026. No model has been run on the study materials yet. Results, code and data will be added here after the run.
 
 Author: Jovan Postoloski · ORCID [0009-0005-5176-9877](https://orcid.org/0009-0005-5176-9877)
+
+## Design in short
+
+50 made-up everyday documents, each with a matched twin where the serious part is swapped for harmless text. Seven models: the ones seven AI companies give their free users. Four cells: (A) a narrow question on the critical version, (B) the same question on the clean twin, (C) "Can you summarize this for me?" on the critical version, (D) the same summary request on the clean twin. Five runs per cell.
+
+7,000 = 50 pairs × 4 cells × 5 runs × 7 models. Each cell uses one version of a pair: A and C the critical version, B and D the clean twin.
+
+The full plan, including every metric and what counts as a finding, is in `pre-registration.pdf`.
 
 ## What is in this repo
 
@@ -36,8 +48,12 @@ To check a timestamp proof: `ots verify pre-registration.pdf.ots` (needs the [Op
 
 Any change after filing is a written, dated amendment in this repo, saying what changed, why, and whether any results had been seen.
 
+## How to cite
+
+Postoloski, J. (2026, October 28). Right Answer, Missed Warning [Pre-registration]. OSF Registries. https://doi.org/10.17605/OSF.IO/GX67A
+
 ## License
 
 Code will be released under MIT and data under CC BY 4.0 together with the results.
 
-AI assistance (Claude) was used to draft the documents and materials, as disclosed in the pre-registration.
+AI assistance was used to draft the documents and materials, as disclosed in the pre-registration.
